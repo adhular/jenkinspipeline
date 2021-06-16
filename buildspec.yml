@@ -25,6 +25,6 @@ phases:
       - printf '[{"name":"myapp-task","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitionns.json
 
-  artifacts:
+artifacts:
     files: imagedefinitions.json
 
